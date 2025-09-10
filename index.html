@@ -133,37 +133,146 @@
 			</section>
 			<!-- Stats Section -->
 			<section id="Stats" class="main special">
-				<header class="major">
-					<h2>Skills & Stats</h2>
-					<p>My journey in AI is driven by creativity, curiosity, learning, and problem-solving.</p>
-					<h3>Top Technologies</h3>
-					<p align="center">
-						<!-- ===== Tech Badges (replace your old text list with this) ===== -->
-						[![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&labelColor=000&logo=python&logoColor=3776AB)](#)
-						[![Transformers](https://img.shields.io/badge/-Transformers-007acc?style=for-the-badge&labelColor=000&logo=transformers&logoColor=007acc)](#)
-						[![PyTorch](https://img.shields.io/badge/-pytorch-F0DB4F?style=for-the-badge&labelColor=000&logo=pytorch&logoColor=F0DB4F)](#)
-						[![NumPy](https://img.shields.io/badge/-NumPy-013243?style=for-the-badge&labelColor=000&logo=numpy&logoColor=013243)](#)
-						[![Pandas](https://img.shields.io/badge/-Pandas-150458?style=for-the-badge&labelColor=000&logo=pandas&logoColor=150458)](#)
-						[![scikit-learn](https://img.shields.io/badge/-scikit--learn-F7931E?style=for-the-badge&labelColor=000&logo=scikitlearn&logoColor=F7931E)](#)
+			<header class="major">
+			<style>
+				/* Badge layout + small responsive tweaks */
+				.badges {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 8px;
+				justify-content: center;
+				align-items: center;
+				margin-top: 0.5rem;
+				}
+				.badges a {
+				display: inline-block;
+				line-height: 0;            /* remove extra descender space under img */
+				text-decoration: none;
+				}
+				.badges img {
+				height: 36px;
+				max-width: 100%;
+				display: block;
+				}
 
-						[![NLP](https://img.shields.io/badge/-NLP-6f42c1?style=for-the-badge&labelColor=000)](#)
-						[![ML](https://img.shields.io/badge/-Machine%20Learning-00A86B?style=for-the-badge&labelColor=000)](#)
-						[![Deep Learning](https://img.shields.io/badge/-Deep%20Learning-FF6F61?style=for-the-badge&labelColor=000)](#)
-						[![Computer Vision](https://img.shields.io/badge/-Computer%20Vision-0e76a8?style=for-the-badge&labelColor=000)](#)
-						[![Big Data](https://img.shields.io/badge/-Big%20Data-F7931E?style=for-the-badge&labelColor=000)](#)
+				/* Slightly smaller badges on small screens */
+				@media (max-width: 420px) {
+				.badges img { height: 30px; }
+				}
+			</style>
 
-						[![HuggingFace](https://img.shields.io/badge/-HuggingFace-FF9900?style=for-the-badge&labelColor=000&logo=huggingface&logoColor=FF9900)](#)
-						[![Spark](https://img.shields.io/badge/-Apache%20Spark-E25A2C?style=for-the-badge&labelColor=000&logo=apache-spark&logoColor=E25A2C)](#)
-						[![OpenStack](https://img.shields.io/badge/-OpenStack-0077C8?style=for-the-badge&labelColor=000&logo=openstack&logoColor=0077C8)](#)
-						[![Docker](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&labelColor=000&logo=docker&logoColor=2496ED)](#)
-						[![Git](https://img.shields.io/badge/-Git-F05032?style=for-the-badge&labelColor=000&logo=git&logoColor=F05032)](#)
+			<h2>Skills &amp; Stats</h2>
+			<p>My journey in AI is driven by creativity, curiosity, learning, and problem-solving.</p>
+			<h3>Top Technologies</h3>
 
-						[![GitLab](https://img.shields.io/badge/-GitLab-FCA121?style=for-the-badge&labelColor=000&logo=gitlab&logoColor=FCA121)](#)
-						[![Elasticsearch](https://img.shields.io/badge/-Elasticsearch-005571?style=for-the-badge&labelColor=000&logo=elasticsearch&logoColor=005571)](#)
-						[![Django](https://img.shields.io/badge/-Django-092E20?style=for-the-badge&labelColor=000&logo=django&logoColor=092E20)](#)
-						[![Linux](https://img.shields.io/badge/-Linux-000000?style=for-the-badge&labelColor=000&logo=linux&logoColor=FFFFFF)](#)
-						</p>
-				</header>
+			<div class="badges" role="list" aria-label="Top technologies badges">
+				<a href="#" role="listitem" aria-label="Python" title="Python (click to open)">
+				<img alt="Python badge"
+					src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&labelColor=000&logo=python&logoColor=3776AB">
+				</a>
+
+				<a href="#" role="listitem" aria-label="Transformers" title="Transformers (Hugging Face)">
+				<img alt="Transformers badge"
+					src="https://img.shields.io/badge/-Transformers-007acc?style=for-the-badge&labelColor=000&logo=transformers&logoColor=007acc">
+				</a>
+
+				<a href="#" role="listitem" aria-label="PyTorch" title="PyTorch">
+				<img alt="PyTorch badge"
+					src="https://img.shields.io/badge/-PyTorch-EE4C2C?style=for-the-badge&labelColor=000&logo=pytorch&logoColor=EE4C2C">
+				</a>
+
+				<a href="#" role="listitem" aria-label="NumPy" title="NumPy">
+				<img alt="NumPy badge"
+					src="https://img.shields.io/badge/-NumPy-013243?style=for-the-badge&labelColor=000&logo=numpy&logoColor=013243">
+				</a>
+
+				<a href="#" role="listitem" aria-label="Pandas" title="Pandas">
+				<img alt="Pandas badge"
+					src="https://img.shields.io/badge/-Pandas-150458?style=for-the-badge&labelColor=000&logo=pandas&logoColor=150458">
+				</a>
+
+				<a href="#" role="listitem" aria-label="scikit-learn" title="scikit-learn">
+				<img alt="scikit-learn badge"
+					src="https://img.shields.io/badge/-scikit--learn-F7931E?style=for-the-badge&labelColor=000&logo=scikitlearn&logoColor=F7931E">
+				</a>
+
+				<a href="#" role="listitem" aria-label="TensorFlow" title="TensorFlow">
+				<img alt="TensorFlow badge"
+					src="https://img.shields.io/badge/-TensorFlow-FF6F00?style=for-the-badge&labelColor=000&logo=tensorflow&logoColor=FF6F00">
+				</a>
+
+				<a href="#" role="listitem" aria-label="NLP" title="Natural Language Processing">
+				<img alt="NLP badge"
+					src="https://img.shields.io/badge/-NLP-6f42c1?style=for-the-badge&labelColor=000">
+				</a>
+
+				<a href="#" role="listitem" aria-label="Machine Learning" title="Machine Learning">
+				<img alt="Machine Learning badge"
+					src="https://img.shields.io/badge/-Machine%20Learning-00A86B?style=for-the-badge&labelColor=000">
+				</a>
+
+				<a href="#" role="listitem" aria-label="Deep Learning" title="Deep Learning">
+				<img alt="Deep Learning badge"
+					src="https://img.shields.io/badge/-Deep%20Learning-FF6F61?style=for-the-badge&labelColor=000">
+				</a>
+
+				<a href="#" role="listitem" aria-label="Computer Vision" title="Computer Vision">
+				<img alt="Computer Vision badge"
+					src="https://img.shields.io/badge/-Computer%20Vision-0e76a8?style=for-the-badge&labelColor=000">
+				</a>
+
+				<a href="#" role="listitem" aria-label="Big Data" title="Big Data">
+				<img alt="Big Data badge"
+					src="https://img.shields.io/badge/-Big%20Data-F7931E?style=for-the-badge&labelColor=000">
+				</a>
+
+				<a href="#" role="listitem" aria-label="Hugging Face" title="Hugging Face">
+				<img alt="Hugging Face badge"
+					src="https://img.shields.io/badge/-HuggingFace-FF9900?style=for-the-badge&labelColor=000&logo=huggingface&logoColor=FF9900">
+				</a>
+
+				<a href="#" role="listitem" aria-label="Apache Spark" title="Apache Spark">
+				<img alt="Apache Spark badge"
+					src="https://img.shields.io/badge/-Apache%20Spark-E25A2C?style=for-the-badge&labelColor=000&logo=apache-spark&logoColor=E25A2C">
+				</a>
+
+				<a href="#" role="listitem" aria-label="OpenStack" title="OpenStack">
+				<img alt="OpenStack badge"
+					src="https://img.shields.io/badge/-OpenStack-0077C8?style=for-the-badge&labelColor=000&logo=openstack&logoColor=0077C8">
+				</a>
+
+				<a href="#" role="listitem" aria-label="Docker" title="Docker">
+				<img alt="Docker badge"
+					src="https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&labelColor=000&logo=docker&logoColor=2496ED">
+				</a>
+
+				<a href="#" role="listitem" aria-label="Git" title="Git">
+				<img alt="Git badge"
+					src="https://img.shields.io/badge/-Git-F05032?style=for-the-badge&labelColor=000&logo=git&logoColor=F05032">
+				</a>
+
+				<a href="#" role="listitem" aria-label="GitLab" title="GitLab">
+				<img alt="GitLab badge"
+					src="https://img.shields.io/badge/-GitLab-FCA121?style=for-the-badge&labelColor=000&logo=gitlab&logoColor=FCA121">
+				</a>
+
+				<a href="#" role="listitem" aria-label="Elasticsearch" title="Elasticsearch">
+				<img alt="Elasticsearch badge"
+					src="https://img.shields.io/badge/-Elasticsearch-005571?style=for-the-badge&labelColor=000&logo=elasticsearch&logoColor=005571">
+				</a>
+
+				<a href="#" role="listitem" aria-label="Django" title="Django">
+				<img alt="Django badge"
+					src="https://img.shields.io/badge/-Django-092E20?style=for-the-badge&labelColor=000&logo=django&logoColor=092E20">
+				</a>
+
+				<a href="#" role="listitem" aria-label="Linux" title="Linux">
+				<img alt="Linux badge"
+					src="https://img.shields.io/badge/-Linux-000000?style=for-the-badge&labelColor=000&logo=linux&logoColor=FFFFFF">
+				</a>
+			</div>
+			</header>
+
 				<ul class="statistics">
 					<li class="style1">
 						<span class="icon solid fa-code-branch"></span>
